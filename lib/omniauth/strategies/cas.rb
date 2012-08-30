@@ -25,6 +25,7 @@ module OmniAuth
       option :login_url,            '/login'
       option :logout_url,           '/logout'
       option :uid_key,              'user'
+      option :disable_ssl_verification?, false
 
       # As required by https://github.com/intridea/omniauth/wiki/Auth-Hash-Schema
       AuthHashSchemaKeys = %w{name email first_name last_name location image phone}
